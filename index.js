@@ -18,7 +18,8 @@ router.get('/sitemap',function(req,res){
 
 //add the router
 app.use('/', router);
-app.use(express.static('public'));
-app.listen(process.env.port || 5000);
 
-console.log('Running at Port 5000');
+app.use(express.static('public'));
+app.listen(process.env.port || 8000);
+
+console.log('Running at Port 8000');
