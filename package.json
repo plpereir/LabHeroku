@@ -1,13 +1,18 @@
 {
   "name": "intranetcompliance",
   "version": "1.0.0",
-  "description": "Our sample Node to Heroku app",
+  "description": "This app is sandbox at heroku",
   "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "consolidate": "^0.15.1"
+  },
   "scripts": {
     "start": "node index.js"
   },
   "author": "Pedro Pereira",
-  "dependencies": {
-    "express": "~4.9.8"
+  "license": "MIT",
+  "engines": {
+    "node": "12.10.0"
   }
 }
