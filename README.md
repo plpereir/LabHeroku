@@ -1,6 +1,8 @@
 # LabHeroku
 this repository has the purpose of storing the development labs carried out in node.js and deploying the free development account at heroku.
 
+url app na heroku: https://blooming-earth-58966.herokuapp.com/
+
 ------ Deploy steps: ------
 
 #1 Logging Into Heroku:
