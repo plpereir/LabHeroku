@@ -10,12 +10,8 @@ heroku login;
 git clone https://user:password@github.com/plpereir/LabHeroku.git
 
 #3 Folder Structure App:
-- public/
------ css/
------ js/
------ img/
-- views/
----------- index.ejs
+- public/ (css, js e img files)
+- views/ (index.ejs)
 - .gitignore
 - package.json
 - server.js
@@ -31,7 +27,8 @@ git clone https://user:password@github.com/plpereir/LabHeroku.git
 #8 Local test:
 node server.js -> Our app is running on http://localhost:8080
 
-Deploying Your Node App at Heroku:
+------ Deploying Your Node App at Heroku: ------
+
 #1 create the remote repository:
 heroku create
 #2 Deploying Code: 
@@ -51,8 +48,10 @@ https://devcenter.heroku.com/articles/getting-started-with-nodejs#deploy-the-app
 https://devcenter.heroku.com/articles/deploying-nodejs
 
 
------ At Root Folder---
+------ Main Commands------
+
 - Heroku
+
 check hours used free account:
 heroku ps -a blooming-earth-58966
 
@@ -76,6 +75,7 @@ heroku login
 
 
 - Git
+
 addtional files:
 git add .
 
