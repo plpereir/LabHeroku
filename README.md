@@ -31,18 +31,23 @@ node server.js -> Our app is running on http://localhost:8080
 
 #1 create the remote repository:
 heroku create
+
 #2 Deploying Code: 
 git push heroku master
+
 #3 Ensure One Instance Is Running (Our application is ready!):
 heroku ps:scale web=1
+
 #4 Defining a Specific Run Command:
 create a Procfile in the root of your project and define the following:
 web: node server.js
+
 #5 View Our Application in Browser:
 heroku open
 
 
 More Details:
+
 https://devcenter.heroku.com/articles/getting-started-with-nodejs#deploy-the-app
 
 https://devcenter.heroku.com/articles/deploying-nodejs
